@@ -1,0 +1,146 @@
+body{
+    background-color: #ccc;
+}
+.container{
+    width: 970px;
+    
+    margin: 0 auto;
+    background-color: white;
+}
+.header{
+    position: relative;
+    background-color: #66bb33;
+    width: 970px;
+    height: 150px;
+}
+.logo{
+    width: 970px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+
+}
+ul{
+    display: inline;
+}
+li{
+    
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    vertical-align: bottom;
+}
+.lg{
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 10px;
+    text-decoration:none;
+}
+
+.logo ul li{
+    margin-right: 50px;
+    top:0px;               
+}
+.logo a{
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    top: -5px;
+}
+
+.nav1{
+    position: absolute;
+    top:80px;
+    left:750px ;
+    vertical-align: middle;
+    
+}
+
+.nav1 ul li{
+    background-color: #b2dd99;
+    color: #56813d;
+    
+    line-height:50px;
+    width: 30px;
+    margin-right: 5px;
+    border: 1px solid black;
+                
+}
+.nav1 ul li:hover{
+    background-color: rgb(224,241,214);
+    height:65px;
+    width: 50px;
+}
+.main{              
+    margin: 20px 0;
+    vertical-align: middle; 
+          
+}
+.nav2{             
+    height: 80px;
+    border-bottom: 1px   solid #ccc;
+    padding-top: 40px;
+    padding-left: 40px;             
+   
+}
+.nav2 ul{
+    top:30px;
+    
+}
+.nav2 .home{
+    background-color: white;
+    
+}
+.nav2 ul li{
+    line-height: 80px;
+    padding: 0 30px;  
+     
+    width: 70px;
+    margin-left: -1px;  /*两个盒子边框合二为一*/
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: silver;
+    border-bottom: transparent; /*边框底部线条直接继承.menu*/
+    border-top-left-radius: 21px;   /*边框左上角*/
+    border-top-right-radius: 21px;
+}
+
+.nav2 ul li:hover{
+    background-color: white;
+}
+.content{
+    height: 460px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box1,.box2,.box3{
+    width: 300px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid rgb(102, 102, 102);
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+   
+}
+.box4,.box5,.box6,.box7{
+    width: 222px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid rgb(102, 102, 102);
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.footer {
+    height: 80px;
+    padding-top: 20px;
+    background-color: #666;
+    font-size: 16px;
+    color:white;
+    text-align: center;
+}
